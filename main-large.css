@@ -1,0 +1,126 @@
+.section {
+  {{font-serif.css}}
+  text-align: center;
+  display: inline-block;
+  font-size: 28px;
+  width: 172px;
+  letter-spacing: 4.2px;
+}
+
+.header-name {
+  text-align: center;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.logo img {
+  margin-left: -95px;
+  margin-top: 51px;
+}
+
+.name {
+  display: inline-block;
+  margin-left: -12px;
+}
+
+.name img {
+  padding-bottom: 2px;
+}
+
+.header-section {
+  text-align: center;
+  margin-top: 5px;
+  color: {{color-gray}};
+}
+
+.content {
+  text-align: center;
+  margin-top: 34px;
+}
+
+.subcontent {
+  display: inline-block;
+  text-align: left;
+  width: 474px;
+}
+
+.subheader {
+  {{font-sans.css}}
+  color: {{color-light-gray}};
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: 4.5px;
+}
+
+.list {
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 27px;
+  list-style: none;
+}
+
+.bullet {
+  {{font-serif.css}}
+  padding-bottom: 8px;
+  margin-left: -20px;
+  cursor: pointer;
+  color: {{color-gray}};
+  transition: color 0.5s ease;
+}
+
+.bullet:hover {
+  color: #B58823;
+}
+
+.bullet-image {
+  display: inline-block;
+  width: 50px;
+  text-align: right;
+  margin-right: 24px;
+  vertical-align: middle;
+}
+
+.bullet-text {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 39px;
+}
+
+.footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 470px;
+  margin-top: 14px;
+}
+
+.footer hr {
+  border: solid {{color-gray}} 1px;
+}
+
+.footer-icons {
+  text-align: right;
+}
+
+.footer img {
+  margin-right: 45px;
+  vertical-align: middle;
+}
+
+.footer-copyright {
+  display: inline-block;
+  {{font-sans.css}}
+  font-weight: 300;
+  font-size: 18px;
+  margin-right: 7px;
+  letter-spacing: 1.5px;
+  vertical-align: middle;
+  color: {{color-gray}};
+}
+
+.copy {
+  color: {{color-light-gray}};
+}
+
+{{temporary.css}}

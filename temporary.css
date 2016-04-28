@@ -1,0 +1,10 @@
+.background-red {
+  text-align: center;
+}
+
+.background-red img {
+  position: fixed;
+  left: 20%;
+  width: 60%;
+  opacity: 0.6;
+}

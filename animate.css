@@ -1,0 +1,92 @@
+.bullet-text:before {
+  content: "";
+  /*background: {{color-light-gray}};*/
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  /*border-radius: 5px;*/
+  transform: scaleX(0);
+  animation: 0.6s forwards no-hover-v ease;
+  animation-fill-mode: forwards;
+  z-index: -1;
+}
+
+.bullet.orange .bullet-text:before {
+  background: {{color-orange}};
+}
+
+.bullet.blue .bullet-text:before {
+  background: {{color-blue}};
+}
+
+.bullet.purple .bullet-text:before {
+  background: linear-gradient(to right, {{color-faded-orange}}, {{color-faded-orange}} 25%, {{color-faded-pink}} 25%, {{color-faded-pink}} 50%, {{color-faded-green}} 50%, {{color-faded-green}} 75%, {{color-faded-blue}} 75%, {{color-faded-blue}});
+}
+
+.bullet.green .bullet-text:before {
+  background: {{color-green}};
+}
+
+.bullet.pink .bullet-text:before {
+  background: {{color-pink}};
+}
+
+.bullet.sky .bullet-text:before {
+  background: {{color-sky}};
+}
+
+.bullet.gold .bullet-text:before {
+  background: {{color-gold}};
+}
+
+.bullet:hover .bullet-text:before,
+.bullet:focus .bullet-text:before {
+  animation: .4s forwards hover-v ease;
+  animation-fill-mode: forwards;
+}
+
+.bullet {
+  transition: all 0.5s ease;
+  display: inline-block;
+  padding-right: 10px;
+  position: relative;
+}
+
+.bullet:before {
+  content: "";
+  background: #FFFFFF;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  bottom: 0;
+  z-index: -1;
+  transition: all 0.5s ease;
+}
+
+/*.bullet:hover:before {
+  background: #F3F3F3;
+}*/
+
+.bullet:hover {
+  padding-left: 10px;
+}
+
+@keyframes hover-v {
+  0% {
+    transform: scaleX(0);
+    height: 3px;
+  }
+  52% {   
+    transform: scaleX(1.1);
+    height: 3px;
+  }
+  55% {
+    height: 3px;
+  }
+  100% {
+    transform: scaleX(1.05);
+    height: 3px;
+  }
+}
