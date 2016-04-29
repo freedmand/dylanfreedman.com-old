@@ -1,5 +1,5 @@
 import subprocess
-import os, codecs
+import os, codecs, sys
 from compile import compile_to_file, Compilation
 import SimpleHTTPServer
 import SocketServer
@@ -57,13 +57,23 @@ colors = {
   'faded-sky': '#A5E8FF', # hobbies
   'faded-gold': '#FFE1B8', # experience
 
-  'blue': '#6905FB', # programming
-  'pink': '#CE0303', # music
-  'orange': '#FD902B', # writing
-  'green': '#20D06A', # graphic design
-  'purple': '#D0CCFF', # projects
-  'gold': '#FFE1B8', # experience
-  'sky': '#A5E8FF', # hobbies
+  # 'blue': '#6905FB', # programming
+  # 'pink': '#CE0303', # music
+  # 'orange': '#FD902B', # writing
+  # 'green': '#20D06A', # graphic design
+  # 'purple': '#2788E2', # projects
+  # 'gold': '#EBAE20', # experience
+  # 'sky': '#A5E8FF', # hobbies
+
+  'coding': '#0086CA', # programming
+  'music': '#A51D31', # music
+  'writing': '#F7C601', # writing
+  'design': '#58BD7E', # graphic design
+  'projects': '#A069AA', # projects
+  'experience': '#F7931E', # experience
+  'hobbies': '#46A9BB', # hobbies
+
+  'orange': '#F15A29', # characteristic orange
 }
 
 def get_param(params, s):
@@ -94,12 +104,13 @@ compile_to_file('main.css',
   'output/main.css'
 )
 
-print 'file:///Users/freedmand/Documents/dylanfreedman.com/output/index.html'
+print 'file://' + os.path.abspath('output/index.html')
 
-# # start the http server
-# os.chdir('output')
-# Handler = SimpleHTTPServer.SimpleHTTPRequestHandler
-# httpd = SocketServer.TCPServer(("", 8080), Handler)
+if '-s' in sys.argv:
+  # start the http server
+  os.chdir('output')
+  Handler = SimpleHTTPServer.SimpleHTTPRequestHandler
+  httpd = SocketServer.TCPServer(("", 8080), Handler)
 
-# print "serving at port", PORT
-# httpd.serve_forever()
+  print "serving at port", PORT
+  httpd.serve_forever()

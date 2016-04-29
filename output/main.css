@@ -1,5 +1,5 @@
 .section {
-  font-family: "Adobe Garamond Pro", serif;
+  font-family: "adobe-garamond-pro", "Adobe Garamond Pro", serif;
   text-align: center;
   display: inline-block;
   font-size: 28px;
@@ -47,7 +47,7 @@
 }
 
 .subheader {
-  font-family: "Lato", sans-serif;
+  font-family: "lato", "Lato", sans-serif;
   color: #A09F9F;
   font-size: 40px;
   font-weight: 300;
@@ -62,7 +62,7 @@
 }
 
 .bullet {
-  font-family: "Adobe Garamond Pro", serif;
+  font-family: "adobe-garamond-pro", "Adobe Garamond Pro", serif;
   margin-bottom: 4px;
   margin-left: -20px;
   cursor: pointer;
@@ -100,32 +100,60 @@
   z-index: -1;
 }
 
-.bullet.orange .bullet-text:before {
-  background: #FD902B;
+.bullet.coding .bullet-text:before {
+  background: #0086CA;
 }
 
-.bullet.blue .bullet-text:before {
-  background: #6905FB;
+.bullet.music .bullet-text:before {
+  background: #A51D31;
 }
 
-.bullet.purple .bullet-text:before {
-  background: linear-gradient(to right, #FBDA4F, #FBDA4F 25%, #FFBFBF 25%, #FFBFBF 50%, #7DECAC 50%, #7DECAC 75%, #ABCFFF 75%, #ABCFFF);
+.bullet.writing .bullet-text:before {
+  background: #F7C601;
 }
 
-.bullet.green .bullet-text:before {
-  background: #20D06A;
+.bullet.design .bullet-text:before {
+  background: #58BD7E;
 }
 
-.bullet.pink .bullet-text:before {
-  background: #CE0303;
+.bullet.projects .bullet-text:before {
+  background: #A069AA;
 }
 
-.bullet.sky .bullet-text:before {
-  background: #A5E8FF;
+.bullet.experience .bullet-text:before {
+  background: #F7931E;
 }
 
-.bullet.gold .bullet-text:before {
-  background: #FFE1B8;
+.bullet.hobbies .bullet-text:before {
+  background: #46A9BB;
+}
+
+.bullet.coding:hover {
+  color: #0086CA;
+}
+
+.bullet.music:hover {
+  color: #A51D31;
+}
+
+.bullet.writing:hover {
+  color: #F7C601;
+}
+
+.bullet.design:hover {
+  color: #58BD7E;
+}
+
+.bullet.projects:hover {
+  color: #A069AA;
+}
+
+.bullet.experience:hover {
+  color: #F7931E;
+}
+
+.bullet.hobbies:hover {
+  color: #46A9BB;
 }
 
 .bullet:hover .bullet-text:before,
@@ -202,7 +230,7 @@
 
 .footer-copyright {
   display: inline-block;
-  font-family: "Lato", sans-serif;
+  font-family: "lato", "Lato", sans-serif;
   font-weight: 300;
   font-size: 18px;
   margin-right: 7px;

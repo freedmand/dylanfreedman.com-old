@@ -12,32 +12,60 @@
   z-index: -1;
 }
 
-.bullet.orange .bullet-text:before {
-  background: {{color-orange}};
+.bullet.coding .bullet-text:before {
+  background: {{color-coding}};
 }
 
-.bullet.blue .bullet-text:before {
-  background: {{color-blue}};
+.bullet.music .bullet-text:before {
+  background: {{color-music}};
 }
 
-.bullet.purple .bullet-text:before {
-  background: linear-gradient(to right, {{color-faded-orange}}, {{color-faded-orange}} 25%, {{color-faded-pink}} 25%, {{color-faded-pink}} 50%, {{color-faded-green}} 50%, {{color-faded-green}} 75%, {{color-faded-blue}} 75%, {{color-faded-blue}});
+.bullet.writing .bullet-text:before {
+  background: {{color-writing}};
 }
 
-.bullet.green .bullet-text:before {
-  background: {{color-green}};
+.bullet.design .bullet-text:before {
+  background: {{color-design}};
 }
 
-.bullet.pink .bullet-text:before {
-  background: {{color-pink}};
+.bullet.projects .bullet-text:before {
+  background: {{color-projects}};
 }
 
-.bullet.sky .bullet-text:before {
-  background: {{color-sky}};
+.bullet.experience .bullet-text:before {
+  background: {{color-experience}};
 }
 
-.bullet.gold .bullet-text:before {
-  background: {{color-gold}};
+.bullet.hobbies .bullet-text:before {
+  background: {{color-hobbies}};
+}
+
+.bullet.coding:hover {
+  color: {{color-coding}};
+}
+
+.bullet.music:hover {
+  color: {{color-music}};
+}
+
+.bullet.writing:hover {
+  color: {{color-writing}};
+}
+
+.bullet.design:hover {
+  color: {{color-design}};
+}
+
+.bullet.projects:hover {
+  color: {{color-projects}};
+}
+
+.bullet.experience:hover {
+  color: {{color-experience}};
+}
+
+.bullet.hobbies:hover {
+  color: {{color-hobbies}};
 }
 
 .bullet:hover .bullet-text:before,
