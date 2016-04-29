@@ -101,59 +101,67 @@
 }
 
 .bullet.coding .bullet-text:before {
-  background: #0086CA;
+  background: #0D579B;
 }
 
 .bullet.music .bullet-text:before {
-  background: #A51D31;
+  background: #984120;
 }
 
 .bullet.writing .bullet-text:before {
-  background: #F7C601;
+  background: #FBA919;
 }
 
 .bullet.design .bullet-text:before {
-  background: #58BD7E;
+  background: #00646E;
 }
 
 .bullet.projects .bullet-text:before {
-  background: #A069AA;
+  background: #834C9E;
 }
 
 .bullet.experience .bullet-text:before {
-  background: #F7931E;
+  background: #FF7700;
 }
 
 .bullet.hobbies .bullet-text:before {
-  background: #46A9BB;
+  background: #10603c;
+}
+
+.bullet.accent .bullet-text:before {
+  background: #EF7A22;
 }
 
 .bullet.coding:hover {
-  color: #0086CA;
+  color: #0D579B;
 }
 
 .bullet.music:hover {
-  color: #A51D31;
+  color: #984120;
 }
 
 .bullet.writing:hover {
-  color: #F7C601;
+  color: #FBA919;
 }
 
 .bullet.design:hover {
-  color: #58BD7E;
+  color: #00646E;
 }
 
 .bullet.projects:hover {
-  color: #A069AA;
+  color: #834C9E;
 }
 
 .bullet.experience:hover {
-  color: #F7931E;
+  color: #FF7700;
 }
 
 .bullet.hobbies:hover {
-  color: #46A9BB;
+  color: #10603c;
+}
+
+.bullet.accent:hover {
+  color: #EF7A22;
 }
 
 .bullet:hover .bullet-text:before,
@@ -241,6 +249,88 @@
 
 .copy {
   color: #A09F9F;
+}
+
+@font-face {
+  font-family: 'df';
+  src: url('fonts/df.eot?hzhpcv');
+  src: url('fonts/df.eot?hzhpcv#iefix') format('embedded-opentype'), url('fonts/df.ttf?hzhpcv') format('truetype'), url('fonts/df.woff?hzhpcv') format('woff'), url('fonts/df.svg?hzhpcv#df') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'df' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  font-size: 33px;
+  width: 55px;
+  height: 33px;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before,
+[class^="icon-"]:after, [class*=" icon-"]:after {
+  display: block;
+  position: absolute;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  opacity: 0.646;
+}
+
+.icon-coding:before {
+  content: "\e900";
+}
+.icon-coding:after {
+  content: "\e901";
+}
+.icon-music:before {
+  content: "\e908";
+}
+.icon-music:after {
+  content: "\e909";
+}
+.icon-writing:before {
+  content: "\e90c";
+}
+.icon-writing:after {
+  content: "\e90d";
+}
+.icon-design:before {
+  content: "\e902";
+}
+.icon-design:after {
+  content: "\e903";
+}
+.icon-projects:before {
+  content: "\e90a";
+}
+.icon-projects:after {
+  content: "\e90b";
+}
+.icon-experience:before {
+  content: "\e904";
+}
+.icon-experience:after {
+  content: "\e905";
+}
+.icon-hobbies:before {
+  content: "\e906";
+}
+.icon-hobbies:after {
+  content: "\e907";
 }
 
 .background-red {

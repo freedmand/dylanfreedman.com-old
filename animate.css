@@ -40,6 +40,10 @@
   background: {{color-hobbies}};
 }
 
+.bullet.accent .bullet-text:before {
+  background: {{color-accent}};
+}
+
 .bullet.coding:hover {
   color: {{color-coding}};
 }
@@ -66,6 +70,10 @@
 
 .bullet.hobbies:hover {
   color: {{color-hobbies}};
+}
+
+.bullet.accent:hover {
+  color: {{color-accent}};
 }
 
 .bullet:hover .bullet-text:before,

@@ -65,15 +65,15 @@ colors = {
   # 'gold': '#EBAE20', # experience
   # 'sky': '#A5E8FF', # hobbies
 
-  'coding': '#0086CA', # programming
-  'music': '#A51D31', # music
-  'writing': '#F7C601', # writing
-  'design': '#58BD7E', # graphic design
-  'projects': '#A069AA', # projects
-  'experience': '#F7931E', # experience
-  'hobbies': '#46A9BB', # hobbies
+  'coding': '#0D579B', # programming
+  'music': '#984120', # music
+  'writing': '#FBA919', # writing
+  'design': '#00646E', # graphic design
+  'projects': '#834C9E', # projects
+  'experience': '#FF7700', # experience
+  'hobbies': '#10603c', # hobbies
 
-  'orange': '#F15A29', # characteristic orange
+  'accent': '#EF7A22', # characteristic orange
 }
 
 def get_param(params, s):
