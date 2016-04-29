@@ -125,7 +125,7 @@
 }
 
 .bullet.hobbies .bullet-text:before {
-  background: #10603c;
+  background: #ED1C24;
 }
 
 .bullet.accent .bullet-text:before {
@@ -157,7 +157,7 @@
 }
 
 .bullet.hobbies:hover {
-  color: #10603c;
+  color: #ED1C24;
 }
 
 .bullet.accent:hover {

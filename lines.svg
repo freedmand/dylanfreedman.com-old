@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	viewBox="0 0 44.815 37" style="enable-background:new 0 0 44.815 37;" xml:space="preserve">
+	<style type="text/css">
+		.st0{fill:#A09F9F;}
+		.st1{fill:#6D6E71;}
+	</style>
+
+	<g class="coding">
+		<rect x="17.665" y="7.501" class="st1" width="6.153" height="3.404"/>
+		<rect x="12.231" y="1.302" class="st0" width="17.74" height="3.404"/>
+		<rect x="23.1" y="13.699" class="st0" width="14.054" height="3.404"/>
+		<rect x="30.278" y="26.096" class="st0" width="14.538" height="3.404"/>
+		<rect x="32.509" y="1.302" class="st0" width="12.306" height="3.404"/>
+		<rect x="37.915" y="19.897" class="st0" width="5.122" height="3.404"/>
+		<rect x="26.356" y="7.501" class="st0" width="14.624" height="3.404"/>
+		<rect x="23.1" y="19.897" class="st0" width="12.278" height="3.404"/>
+		<rect x="17.665" y="26.096" class="st0" width="10.075" height="3.404"/>
+		<rect x="12.231" y="32.294" class="st0" width="12.317" height="3.404"/>
+		<rect x="27.085" y="32.294" class="st1" width="11.577" height="3.404"/>
+	</g>
+
+	<g class="music">
+		<rect x="9.043" y="5.27" class="st0" width="3.404" height="26.46"/>
+		<rect x="19.832" y="5.27" class="st0" width="3.404" height="26.46"/>
+		<rect x="30.622" y="5.27" class="st0" width="3.404" height="26.46"/>
+		<rect x="41.411" y="5.27" class="st0" width="3.404" height="26.46"/>
+		<rect x="14.397" y="5.27" class="st1" width="3.484" height="15.878"/>
+		<rect x="25.187" y="5.27" class="st1" width="3.484" height="15.878"/>
+		<rect x="35.977" y="5.27" class="st1" width="3.484" height="15.878"/>
+	</g>
+
+	<g class="writing">
+		<rect x="17.32" y="8.977" class="st0" width="27.495" height="3.404"/>
+		<rect x="25.293" y="2.778" class="st0" width="19.522" height="3.404"/>
+		<rect x="17.32" y="15.175" class="st0" width="27.495" height="3.404"/>
+		<rect x="25.293" y="21.373" class="st0" width="19.522" height="3.404"/>
+		<rect x="17.32" y="27.572" class="st0" width="27.495" height="3.404"/>
+		<rect x="17.32" y="33.335" class="st0" width="27.495" height="3.404"/>
+		<rect x="11.471" y="0.261" class="st1" width="3.484" height="5.962"/>
+	</g>
+
+	<g class="design">
+		<rect x="8.373" y="12.005" transform="matrix(0.9415 -0.337 0.337 0.9415 -3.3253 8.2562)" class="st0" width="27.495" height="3.404"/>
+		<rect x="24.018" y="21.734" transform="matrix(0.5849 0.8111 -0.8111 0.5849 34.0236 -19.6156)" class="st0" width="24.318" height="3.404"/>
+		<rect x="20.815" y="21.161" transform="matrix(0.7984 0.6021 -0.6021 0.7984 19.5692 -12.7245)" class="st0" width="15.945" height="3.404"/>
+		<rect x="11.379" y="24.723" transform="matrix(0.8866 0.4626 -0.4626 0.8866 15.0745 -8.6261)" class="st0" width="27.495" height="3.404"/>
+		<rect x="11.379" y="30.889" class="st0" width="18.699" height="3.404"/>
+		<rect x="22.237" y="3.872" transform="matrix(0.9945 0.1046 -0.1046 0.9945 0.7662 -3.4687)" class="st1" width="22.462" height="3.404"/>
+	</g>
+
+	<g class="projects">
+		<rect x="17.053" y="22.653" class="st0" width="3.404" height="8.863"/>
+		<rect x="10.855" y="5.485" class="st0" width="3.404" height="26.031"/>
+		<rect x="23.251" y="15.139" class="st0" width="3.404" height="16.377"/>
+		<rect x="29.45" y="10.379" class="st1" width="3.404" height="21.137"/>
+		<rect x="35.648" y="17.439" class="st0" width="3.404" height="14.077"/>
+		<rect x="41.411" y="8.177" class="st0" width="3.404" height="23.338"/>
+	</g>
+
+	<g class="experience">
+		<rect x="31.027" y="7.718" class="st0" width="13.788" height="3.404"/>
+		<rect x="26.078" y="13.916" class="st0" width="18.737" height="3.404"/>
+		<rect x="21.129" y="20.115" class="st0" width="23.687" height="3.404"/>
+		<rect x="16.179" y="26.313" class="st0" width="28.636" height="3.404"/>
+		<rect x="11.23" y="32.076" class="st0" width="33.585" height="3.404"/>
+		<rect x="35.977" y="1.52" class="st1" width="8.839" height="3.404"/>
+	</g>
+
+	<g class="hobbies">
+		<rect x="19.135" y="4.684" transform="matrix(-0.9263 -0.3768 0.3768 -0.9263 33.4643 42.3753)" class="st0" width="3.484" height="26.46"/>
+		<rect x="33.686" y="4.365" class="st0" width="3.484" height="26.46"/>
+		<rect x="-2.593" y="18.644" transform="matrix(-0.7139 0.7002 -0.7002 -0.7139 32.4779 27.4232)" class="st1" width="26.46" height="3.404"/>
+		<rect x="14.512" y="15.785" transform="matrix(-0.129 0.9916 -0.9916 -0.129 48.6615 -7.7673)" class="st1" width="26.46" height="3.404"/>
+		<rect x="41.411" y="4.365" class="st0" width="3.404" height="26.46"/>
+	</g>
+
+</svg>

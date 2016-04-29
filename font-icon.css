@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'df';
+  src: url('fonts/df.eot?hzhpcv');
+  src: url('fonts/df.eot?hzhpcv#iefix') format('embedded-opentype'), url('fonts/df.ttf?hzhpcv') format('truetype'), url('fonts/df.woff?hzhpcv') format('woff'), url('fonts/df.svg?hzhpcv#df') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'df' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  font-size: 33px;
+  width: 55px;
+  height: 33px;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before,
+[class^="icon-"]:after, [class*=" icon-"]:after {
+  display: block;
+  position: absolute;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  opacity: 0.646;
+}
+
+.icon-coding:before {
+  content: "\e900";
+}
+.icon-coding:after {
+  content: "\e901";
+}
+.icon-music:before {
+  content: "\e908";
+}
+.icon-music:after {
+  content: "\e909";
+}
+.icon-writing:before {
+  content: "\e90c";
+}
+.icon-writing:after {
+  content: "\e90d";
+}
+.icon-design:before {
+  content: "\e902";
+}
+.icon-design:after {
+  content: "\e903";
+}
+.icon-projects:before {
+  content: "\e90a";
+}
+.icon-projects:after {
+  content: "\e90b";
+}
+.icon-experience:before {
+  content: "\e904";
+}
+.icon-experience:after {
+  content: "\e905";
+}
+.icon-hobbies:before {
+  content: "\e906";
+}
+.icon-hobbies:after {
+  content: "\e907";
+}

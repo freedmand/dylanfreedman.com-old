@@ -71,7 +71,7 @@ colors = {
   'design': '#00646E', # graphic design
   'projects': '#834C9E', # projects
   'experience': '#FF7700', # experience
-  'hobbies': '#10603c', # hobbies
+  'hobbies': '#ED1C24', # hobbies
 
   'accent': '#EF7A22', # characteristic orange
 }
