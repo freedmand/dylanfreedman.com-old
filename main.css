@@ -1,10 +1,18 @@
+{{responsive.css}}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}
+
 .section {
   {{font-serif.css}}
   text-align: center;
   display: inline-block;
-  font-size: 28px;
-  width: 172px;
-  letter-spacing: 4.2px;
+  font-size: 1.764rem;
+  width: 10.836rem;
+  letter-spacing: 0.2646rem;
+  cursor: pointer;
+  transition: all 0.4 ease;
 }
 
 .header-name {
@@ -16,74 +24,79 @@
 }
 
 .logo img {
-  margin-left: -95px;
-  margin-top: 51px;
+  margin-left: -6.7rem;
+  margin-top: 3.213rem;
+  width: 2.4rem;
 }
 
 .name {
   display: inline-block;
-  margin-left: -12px;
+  margin-left: -0.7rem;
 }
 
 .name img {
-  padding-bottom: 2px;
+  padding-bottom: 0.126rem;
+  width: 28.98rem;
 }
 
 .header-section {
   text-align: center;
-  margin-top: 5px;
+  margin-top: 0.315rem;
   color: {{color-gray}};
 }
 
 .content {
   text-align: center;
-  margin-top: 34px;
+  margin-top: 2.142rem;
 }
 
 .subcontent {
   display: inline-block;
   text-align: left;
-  width: 474px;
+  width: 29.862rem;
 }
 
 .subheader {
   {{font-sans.css}}
   color: {{color-light-gray}};
-  font-size: 40px;
+  font-size: 2.52rem;
   font-weight: 300;
-  letter-spacing: 4.5px;
+  letter-spacing: 0.2835rem;
 }
 
 .list {
-  margin-left: 20px;
-  margin-top: 10px;
-  margin-bottom: 27px;
+  margin-left: 1.26;
+  margin-top: 0.63rem;
+  margin-bottom: 1.701rem;
   list-style: none;
 }
 
 .bullet {
-  {{font-serif.css}}
-  margin-bottom: 4px;
-  margin-left: -20px;
+  margin-bottom: 0.252rem;
   cursor: pointer;
   color: {{color-gray}};
-  padding-top: 3px;
-  padding-bottom: 5px;
+  padding-top: 0.26rem;
+  padding-bottom: 0.315rem;
+  display: block;
 }
 
 .bullet-image {
   display: inline-block;
-  width: 50px;
+  width: 3.15rem;
   text-align: right;
-  margin-right: 24px;
+  margin-right: 1.512rem;
   vertical-align: middle;
 }
 
-.bullet-text {
-  display: inline-block;
-  vertical-align: middle;
-  font-size: 33px;
+.link {
   position: relative;
+  display: inline-block;
+}
+
+.bullet-text {
+  {{font-serif.css}}
+  vertical-align: middle;
+  font-size: 2.079rem;
 }
 
 {{animate.css}}
@@ -91,30 +104,37 @@
 .footer {
   margin-left: auto;
   margin-right: auto;
-  width: 470px;
-  margin-top: 14px;
+  width: 29.61rem;
+  margin-top: 0.882rem;
 }
 
 .footer hr {
-  border: solid {{color-gray}} 1px;
+  border: solid {{color-gray}} 0.063rem;
 }
 
 .footer-icons {
   text-align: right;
 }
 
-.footer img {
-  margin-right: 45px;
+.footer-icons [class^="icon-"] {
+  margin-right: 1.5rem;
   vertical-align: middle;
+  color: {{color-gray}};
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.footer-icons [class^="icon-"]:hover {
+  color: {{color-experience}};
 }
 
 .footer-copyright {
   display: inline-block;
   {{font-sans.css}}
   font-weight: 300;
-  font-size: 18px;
-  margin-right: 7px;
-  letter-spacing: 1.5px;
+  font-size: 1.134rem;
+  margin-right: 0.441rem;
+  letter-spacing: 0.0945rem;
   vertical-align: middle;
   color: {{color-gray}};
 }

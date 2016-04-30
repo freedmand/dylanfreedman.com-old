@@ -5,9 +5,9 @@
   <div class="name">{{header-name.svg}}</div>
 </div>
 <div class="row header-section">
-  <div class="section">projects</div>
-  <div class="section">résumé</div>
-  <div class="section">contact</div>
+  <a class="section" href="projects"><div class="link">projects</div></a>
+  <a class="section" href="resume.html"><div class="link">résumé</div></a>
+  <a class="section" href="contact"><div class="link">contact</div></a>
 </div>
 <div class="content">
   <div class="subcontent">
@@ -17,19 +17,19 @@
     <ul class="list">
       <li class="bullet coding">
         <div class="icon-coding"></div>
-        <div class="bullet-text">a software engineer</div>
+        <div class="bullet-text link">a software engineer</div>
       </li>
       <li class="bullet music">
         <div class="icon-music"></div>
-        <div class="bullet-text">a music composer</div>
+        <div class="bullet-text link">a music composer</div>
       </li>
       <li class="bullet writing">
         <div class="icon-writing"></div>
-        <div class="bullet-text">a creative writer</div>
+        <div class="bullet-text link">a creative writer</div>
       </li>
       <li class="bullet design">
         <div class="icon-design"></div>
-        <div class="bullet-text">a graphic designer</div>
+        <div class="bullet-text link">a graphic designer</div>
       </li>
     </ul>
     <div class="subheader">
@@ -38,15 +38,15 @@
     <ul class="list">
       <li class="bullet projects">
         <div class="icon-projects"></div>
-        <div class="bullet-text">my projects</div>
+        <div class="bullet-text link">my projects</div>
       </li>
       <li class="bullet experience">
         <div class="icon-experience"></div>
-        <div class="bullet-text">my experience</div>
+        <div class="bullet-text link">my experience</div>
       </li>
       <li class="bullet hobbies">
         <div class="icon-hobbies"></div>
-        <div class="bullet-text">my hobbies</div>
+        <div class="bullet-text link">my hobbies</div>
       </li>
     </ul>
   </div>
@@ -54,8 +54,8 @@
 <div class="footer">
   <hr>
   <div class="footer-icons">
-    {{footer-email.svg}}
-    {{footer-github.svg}}
-    <div class="footer-copyright"><span class="copy">©</span> 2016</div>
+    <div class="icon-mail"></div>
+    <div class="icon-github"></div>
+    <div class="footer-copyright"><span class="copy">©</span> {{year}}</div>
   </div>
 </div>

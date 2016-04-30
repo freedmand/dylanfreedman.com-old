@@ -1,91 +1,35 @@
-.bullet-text:before {
+.link:before {
   content: "";
-  /*background: {{color-light-gray}};*/
+  background: {{color-experience}};
   position: absolute;
   width: 100%;
-  height: 3px;
+  height: 0.189rem;
   bottom: 0;
-  /*border-radius: 5px;*/
   transform: scaleX(0);
   animation: 0.6s forwards no-hover-v ease;
   animation-fill-mode: forwards;
   z-index: -1;
 }
 
-.bullet.coding .bullet-text:before {
-  background: {{color-coding}};
+.bullet:hover .bullet-text,
+.section:hover {
+  color: {{color-dark-dark-gray}};
 }
 
-.bullet.music .bullet-text:before {
-  background: {{color-music}};
-}
-
-.bullet.writing .bullet-text:before {
-  background: {{color-writing}};
-}
-
-.bullet.design .bullet-text:before {
-  background: {{color-design}};
-}
-
-.bullet.projects .bullet-text:before {
-  background: {{color-projects}};
-}
-
-.bullet.experience .bullet-text:before {
-  background: {{color-experience}};
-}
-
-.bullet.hobbies .bullet-text:before {
-  background: {{color-hobbies}};
-}
-
-.bullet.accent .bullet-text:before {
-  background: {{color-accent}};
-}
-
-.bullet.coding:hover {
-  color: {{color-coding}};
-}
-
-.bullet.music:hover {
-  color: {{color-music}};
-}
-
-.bullet.writing:hover {
-  color: {{color-writing}};
-}
-
-.bullet.design:hover {
-  color: {{color-design}};
-}
-
-.bullet.projects:hover {
-  color: {{color-projects}};
-}
-
-.bullet.experience:hover {
-  color: {{color-experience}};
-}
-
-.bullet.hobbies:hover {
-  color: {{color-hobbies}};
-}
-
-.bullet.accent:hover {
-  color: {{color-accent}};
-}
-
-.bullet:hover .bullet-text:before,
-.bullet:focus .bullet-text:before {
+.bullet:hover .link:before,
+.section:hover .link:before {
   animation: .4s forwards hover-v ease;
   animation-fill-mode: forwards;
+}
+
+.section:hover {
+  /*padding-top: 0.3rem;*/
 }
 
 .bullet {
   transition: all 0.5s ease;
   display: inline-block;
-  padding-right: 10px;
+  padding-right: 0.63rem;
   position: relative;
 }
 
@@ -95,34 +39,26 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  border-radius: 5px;
+  border-radius: 0.315rem;
   bottom: 0;
   z-index: -1;
   transition: all 0.5s ease;
 }
 
-/*.bullet:hover:before {
-  background: #F3F3F3;
-}*/
-
 .bullet:hover {
-  padding-left: 10px;
+  padding-left: 0.63rem;
 }
 
 @keyframes hover-v {
   0% {
     transform: scaleX(0);
-    height: 3px;
   }
   52% {   
     transform: scaleX(1.1);
-    height: 3px;
   }
   55% {
-    height: 3px;
   }
   100% {
     transform: scaleX(1.05);
-    height: 3px;
   }
 }

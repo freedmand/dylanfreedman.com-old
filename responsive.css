@@ -1,0 +1,5 @@
+@media screen and ( max-height: 780px ){
+  body, html {
+    font-size: 0.8rem;
+  }
+}

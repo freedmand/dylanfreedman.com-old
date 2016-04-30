@@ -6,7 +6,7 @@ output = 'icons'
 def output_svg(lines):
   contents = """<?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-  viewBox="0 0 44.815 37" style="enable-background:new 0 0 44.815 37;" xml:space="preserve">
+  viewBox="-659.4 300.85 520.4 520.3" style="enable-background:new -659.4 300.85 520.4 520.3;" xml:space="preserve">
   <style type="text/css">
     .st0{fill:#A09F9F;}
     .st1{fill:#6D6E71;}
@@ -20,7 +20,7 @@ def output_svg(lines):
 </svg>"""
   return contents
 
-with open('lines.svg', 'r') as f:
+with open('footers.svg', 'r') as f:
   contents = f.read()
 
   for className, lines in re.findall('<g class="(.*?)">(.*?)</g>', contents, re.DOTALL):

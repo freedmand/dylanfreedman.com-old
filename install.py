@@ -3,6 +3,7 @@ import os, codecs, sys
 from compile import compile_to_file, Compilation
 import SimpleHTTPServer
 import SocketServer
+import datetime
 
 INPUT_SVG_DIR = 'svg'
 SVG_EXTENSION = '.svg'
@@ -21,7 +22,6 @@ def get_svg_files():
         yield (os.path.join(dirpath, fn), fn[:-len(SVG_EXTENSION)])
 
 svg_heights = {
-  'logo': 40,
   'background': 800
 }
 
@@ -33,13 +33,13 @@ svg_widths = {
   'bullet-hobbies': 39,
   'footer-email': 30,
   'footer-github': 32,
-  'header-name': 460
 }
 
 colors = {
   'gray': '#6D6E71',
   'light-gray': '#A09F9F',
   'dark-gray': '#414042',
+  'dark-dark-gray': '#333132',
 
   # 'faded-orange': '#FFF4DD', # writing
   # 'faded-blue': '#DDF2FF', # programming
@@ -76,6 +76,8 @@ colors = {
   'accent': '#EF7A22', # characteristic orange
 }
 
+year = datetime.datetime.now().year
+
 def get_param(params, s):
   if params.has_key(s):
     return params[s]
@@ -92,7 +94,8 @@ compile_to_file('template.html',
        'height': (r'\1', lambda x: get_param(svg_heights, x)),
        'width': (r'\1', lambda x: get_param(svg_widths, x))
       }
-    )
+    ),
+    'year': year
   },
   'output/index.html'
 )
@@ -102,6 +105,11 @@ compile_to_file('main.css',
     'color-(.*)': (r'\1', lambda x: colors.get(x))
   },
   'output/main.css'
+)
+
+compile_to_file('resume.html',
+  {},
+  'output/resume.html'
 )
 
 print 'file://' + os.path.abspath('output/index.html')

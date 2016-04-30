@@ -1,12 +1,15 @@
 @font-face {
-  font-family: 'df';
-  src: url('fonts/df.eot?hzhpcv');
-  src: url('fonts/df.eot?hzhpcv#iefix') format('embedded-opentype'), url('fonts/df.ttf?hzhpcv') format('truetype'), url('fonts/df.woff?hzhpcv') format('woff'), url('fonts/df.svg?hzhpcv#df') format('svg');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'df';
+    src:    url('fonts/df.eot?7hrcpp');
+    src:    url('fonts/df.eot?7hrcpp#iefix') format('embedded-opentype'),
+        url('fonts/df.ttf?7hrcpp') format('truetype'),
+        url('fonts/df.woff?7hrcpp') format('woff'),
+        url('fonts/df.svg?7hrcpp#df') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'df' !important;
   speak: none;
@@ -22,20 +25,27 @@
   display: inline-block;
   vertical-align: middle;
   position: relative;
-  font-size: 33px;
-  width: 55px;
-  height: 33px;
+  font-size: 2.079rem;
+  width: 3.465rem;
+  height: 2.079rem;
+
+  transition: all 0.3s ease-out;
 }
 
-[class^="icon-"]:before, [class*=" icon-"]:before,
-[class^="icon-"]:after, [class*=" icon-"]:after {
+[class^="icon-"]:before,
+[class^="icon-"]:after {
   display: block;
   position: absolute;
 }
 
-[class^="icon-"]:before, [class*=" icon-"]:before {
+[class^="icon-"]:before {
   opacity: 0.646;
 }
+
+.bullet:hover [class^="icon-"] {
+  color: {{color-experience}};
+}
+
 
 .icon-coding:before {
   content: "\e900";
@@ -43,29 +53,11 @@
 .icon-coding:after {
   content: "\e901";
 }
-.icon-music:before {
-  content: "\e908";
-}
-.icon-music:after {
-  content: "\e909";
-}
-.icon-writing:before {
-  content: "\e90c";
-}
-.icon-writing:after {
-  content: "\e90d";
-}
 .icon-design:before {
   content: "\e902";
 }
 .icon-design:after {
   content: "\e903";
-}
-.icon-projects:before {
-  content: "\e90a";
-}
-.icon-projects:after {
-  content: "\e90b";
 }
 .icon-experience:before {
   content: "\e904";
@@ -78,4 +70,34 @@
 }
 .icon-hobbies:after {
   content: "\e907";
+}
+.icon-music:before {
+  content: "\e908";
+}
+.icon-music:after {
+  content: "\e909";
+}
+.icon-projects:before {
+  content: "\e90a";
+}
+.icon-projects:after {
+  content: "\e90b";
+}
+.icon-writing:before {
+  content: "\e90c";
+}
+.icon-writing:after {
+  content: "\e90d";
+}
+.icon-mail:before {
+  content: "\e90f";
+}
+.icon-mail:after {
+  content: "\e910";
+}
+.icon-github:before {
+  content: "\e911";
+}
+.icon-github:after {
+  content: "\e90e";
 }
